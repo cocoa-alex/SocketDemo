@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AA4AF0F01891111E00A0D86A"
-               BuildableName = "Socket"
-               BlueprintName = "Socket"
-               ReferencedContainer = "container:Socket.xcodeproj">
+               BlueprintIdentifier = "AA51D2FA189131470039F989"
+               BuildableName = "TCP-Time"
+               BlueprintName = "TCP-Time"
+               ReferencedContainer = "container:TCP-Time.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AA4AF0F01891111E00A0D86A"
-            BuildableName = "Socket"
-            BlueprintName = "Socket"
-            ReferencedContainer = "container:Socket.xcodeproj">
+            BlueprintIdentifier = "AA51D2FA189131470039F989"
+            BuildableName = "TCP-Time"
+            BlueprintName = "TCP-Time"
+            ReferencedContainer = "container:TCP-Time.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AA4AF0F01891111E00A0D86A"
-            BuildableName = "Socket"
-            BlueprintName = "Socket"
-            ReferencedContainer = "container:Socket.xcodeproj">
+            BlueprintIdentifier = "AA51D2FA189131470039F989"
+            BuildableName = "TCP-Time"
+            BlueprintName = "TCP-Time"
+            ReferencedContainer = "container:TCP-Time.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AA4AF0F01891111E00A0D86A"
-            BuildableName = "Socket"
-            BlueprintName = "Socket"
-            ReferencedContainer = "container:Socket.xcodeproj">
+            BlueprintIdentifier = "AA51D2FA189131470039F989"
+            BuildableName = "TCP-Time"
+            BlueprintName = "TCP-Time"
+            ReferencedContainer = "container:TCP-Time.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
