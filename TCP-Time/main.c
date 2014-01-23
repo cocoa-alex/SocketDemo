@@ -6,8 +6,8 @@
 //  Copyright (c) 2014年 Steve. All rights reserved.
 //
 
-#include "../../unp/unp.h"
-#include "../../unp/apueerror.h"
+#include "../unp/unp.h"
+#include "../unp/apueerror.h"
 #include <time.h>
 
 int main(int argc, const char * argv[])
