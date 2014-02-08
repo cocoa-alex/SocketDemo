@@ -35,7 +35,7 @@
  */
 #define	DIR_MODE	(FILE_MODE | S_IXUSR | S_IXGRP | S_IXOTH)
 
-typedef	void	Sigfunc(int);	/* for signal handlers */
+
 
 #if	defined(SIG_IGN) && !defined(SIG_ERR)
 #define	SIG_ERR	((Sigfunc *)-1)
@@ -53,7 +53,7 @@ void	 clr_fl(int, int);				/* {Prog setfl} */
 void	 set_fl(int, int);				/* {Prog setfl} */
 void	 pr_exit(int);					/* {Prog prexit} */
 void	 pr_mask(const char *);			/* {Prog prmask} */
-Sigfunc	*signal_intr(int, Sigfunc *);	/* {Prog signal_intr_function} */
+
 
 int		 tty_cbreak(int);				/* {Prog raw} */
 int		 tty_raw(int);					/* {Prog raw} */
