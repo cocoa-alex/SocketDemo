@@ -1,5 +1,5 @@
-#include "../unp/unp.h"
-#include "../unp/apueerror.h"
+#include "unp.h"
+#include "apueerror.h"
 
 int main(int argc, char **argv)
 {
@@ -7,8 +7,7 @@ int main(int argc, char **argv)
 	char recvline[MAXLINE+1];
 	struct sockaddr_in servaddr;
 
-	printf("%s\n",argv[1] );
-	if (argc!=1)
+	if (argc!=2)
 	{
 		/* code */
 		err_quit("usage:a.out <IPaddress>");
@@ -51,6 +50,5 @@ int main(int argc, char **argv)
 		/* code */
 		err_sys("read error");
 	}
-
 	exit(0);
 }
